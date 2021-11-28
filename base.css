@@ -134,22 +134,22 @@ article img#locationimg {
 	width: 450px;
 }
 /* Table styles */  
-article table {
+table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   border: 3px solid purple;
 }
 
-article table thead th:nth-child(1) {
+table thead th:nth-child(1) {
   width: 30%;
 }
 
-article table thead th:nth-child(2) {
+table thead th:nth-child(2) {
   width: 20%;
 }
 
-article table thead th:nth-child(3) {
+table thead th:nth-child(3) {
   width: 15%;
 }
 
@@ -157,7 +157,7 @@ thead th:nth-child(4) {
   width: 35%;
 }
 
-article table th, td {
+table th, td {
   padding: 20px;
 }
 
