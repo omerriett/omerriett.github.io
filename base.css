@@ -121,22 +121,22 @@ article img#locationimg {
 	width: 450px;
 }
 /* Table styles */  
-table {
+article table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   border: 3px solid purple;
 }
 
-thead th:nth-child(1) {
+article table thead th:nth-child(1) {
   width: 30%;
 }
 
-thead th:nth-child(2) {
+article table thead th:nth-child(2) {
   width: 20%;
 }
 
-thead th:nth-child(3) {
+article table thead th:nth-child(3) {
   width: 15%;
 }
 
@@ -144,7 +144,7 @@ thead th:nth-child(4) {
   width: 35%;
 }
 
-th, td {
+article table th, td {
   padding: 20px;
 }
 
