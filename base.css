@@ -136,31 +136,31 @@ article img#locationimg {
 }
 
 article img#nail1img {
-
-    height: 175px;
+           max-height: 175px;
+	margin-top: 10px;
 	padding: 5px;
-	width: 240px;
+	max-width: 240px;
 }
 
 article img#nail2img {
-	
-    height: 175px;
+           max-height: 175px;
+	margin-top: 10px;
 	padding: 5px;
-	width: 240px;
+	max-width: 240px;
 }
 
 article img#nail3img {
-    height: 175px;
+        max-height: 175px;
 	margin-top: 10px;
 	padding: 5px;
-	width: 240px;
+	max-width: 240px;
 }
 
 article img#nail4img {
-	height: 175px;
+	        max-height: 175px;
 	margin-top: 10px;
 	padding: 5px;
-	width: 240px;
+	max-width: 240px;
 
 }
 
