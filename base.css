@@ -103,19 +103,19 @@ article h2{
 article h3{
 	color: black;
 	column-span: all;
-	
-	font-family: Baskerville, "Palatino Linotype", Palatino, 
-	             "Century Schoolbook", "Times New Roman", serif;
 	font-size: 2.2em;
 	margin-left: 20px;
 	margin-bottom: 2px;
 	margin-top: 3px;
-	text-align: left;	
+	text-align: center;	
 }
 article p {
 	margin-left: 20px;
 	text-align: left;
+	
 }
+
+
 
 article p#locations{
 	margin-right: 10px;
@@ -132,45 +132,98 @@ article img#locationimg {
 	height: 325px;
 	padding: 5px;
 	width: 450px;
+
 }
-/* Table styles */  
+
+article img#nail1img {
+
+    height: 175px;
+	padding: 5px;
+	width: 240px;
+}
+
+article img#nail2img {
+	
+    height: 171px;
+	padding: 5px;
+	width: 240px;
+}
+
+article img#nail3img {
+    height: 175px;
+	margin-top: 10px;
+	padding: 5px;
+	width: 240px;
+}
+
+article img#nail4img {
+	height: 175px;
+	margin-top: 10px;
+	padding: 5px;
+	width: 240px;
+
+}
+
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+/* Column styles */  
 * {
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-  margin-left:-5px;
-  margin-right:-5px;
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 375px;
 }
 
-.column {
-  flex: 50%;
-  padding: 5px;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
+
+
+
+/* Table styles */
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
-th, td {
-  text-align: left;
-  padding: 16px;
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 40px;
 }
+
 
 /* Footer styles */   
 
 footer {
    background-color: black;
    line-height: 1em;
-   width: 990px;
+   width: 100%;
    text-align: center;
 }
 
@@ -184,12 +237,13 @@ footer span a:hover {
 }
 
 .fa {
-	padding: 10px; 
-	font-size: 5px;
-	width: 10px;
+	padding: 2px; 
+	font-size: 15px;
+	width: 20px;
+	height: 20px;
 	text-align: center;
 	text-decoration: none;
-	margin: 2px 2px;
+	margin: 5px 2px;
 	border-radius: 50%;
 	} 
 	
