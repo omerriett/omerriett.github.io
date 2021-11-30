@@ -109,6 +109,7 @@ article h3{
 	margin-top: 3px;
 	text-align: center;	
 }
+
 article p {
 	margin-left: 20px;
 	text-align: left;
@@ -136,29 +137,27 @@ article img#locationimg {
 }
 
 article img#nail1img {
-           max-height: 170px;
-	margin-top: 15px;
+        max-height: 170px;
 	padding: 5px;
-	max-width: 240px;
+	max-width: 235px;
 }
 
 article img#nail2img {
-           max-height: 170px;
-	margin-top: 15px;
+        max-height: 170px;
 	padding: 5px;
-	max-width: 240px;
+	max-width: 235px;
 }
 
 article img#nail3img {
         max-height: 170px;
 	padding: 5px;
-	max-width: 240px;
+	max-width: 235px;
 }
 
 article img#nail4img {
 	max-height: 170px;
 	padding: 5px;
-	max-width: 240px;
+	max-width: 235px;
 
 }
 
