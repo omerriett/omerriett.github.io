@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!--
+    Home Page of Daisy Mae's Nail Care
+    Author: Olivia Merriett
+    Date:   12/14/2021
+    Filename: services.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <meta name="keywords" content="nail, manicure, pedicure, nails, saloon" />
+   <title>Daisy Mae's Nail Care</title>
+   <link href="base.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+ <body>
+   <header>
+	<a href="index.html"> <img src="img/logo1.png" alt="Daisy Mae's Nail Care Logo" id="logoimg"/></a>
+	   <nav class= horizontal>
+            <ul>
+               <li><a href="index.html">About Us</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="locations.html">Locations</a></li>
+            </ul>
+         </nav>  
+	   </header>
+  
+		 <div class='container'>
+           <div class='row'>
+			 <div class='column'>
+               <div class='left-column'>
+					  <table>
+				           <tr><th colspan= "2">Services</th>
+						<tr>
+						   <td>Manicure</td>
+                           <td>$45</td>
+						</tr>
+                         
+						<tr>
+						  <td>Pedicure</td>
+						  <td>$55</td>
+						</tr>
+						<tr>
+						  <td>Manicure & Pedicure</td>
+						  <td>$90</td>
+						</tr>
+						<tr>
+						  <th colspan= "2">Additional Services</th>
+						</tr>
+						<tr>
+						  <td>French Design</td>
+						  <td>$10</td>
+						</tr>
+						<tr>
+						  <td>Nail Art</td>
+						  <td>$20</td>
+						</tr>
+						</table>
+               </div>
+			 </div>
+			 
+			 <div class='column'>
+				<div class='right-column'>
+                                <form action="action_page.php">
+				<h3>Book an Appointment</h3>
+			   <fieldset>
+				<div class="form">
+					<div class="formRow">
+					  <div class="colLeft">
+						<label for="fname"> First Name</label>
+					  </div>
+					  <div class="colRight">
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+					  </div>
+					</div>
+</div>
+					 </fieldset>
+					 
+					 <fieldset>
+					<div class="formRow">
+					  <div class="colLeft">
+						<label for="lname"> Last Name</label>
+					  </div>
+					  <div class="colRight">
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					  </div>
+					</div>
+					</fieldset>
+					
+					<fieldset>
+					 <div class="formRow">
+					 <div class="colLeft">
+					  <label for="phone">Phone Number</label>
+					 </div>
+					 <div class="colRight">
+					  <input type="tel" id="phone" name="custPhone" placeholder="(###) ###-####" />
+					  </div>
+					 </div>
+					</fieldset>
+
+                    <fieldset>					
+					<div class="formRow">
+					  <div class="colLeft">
+						<label for="location">Location</label>
+					  </div>
+					  <div class="colRight">
+						<select id="location" name="location">
+							   <option value="daisy mae's nail care">Daisy Mae's Nail Care (1705 E 31st Ave, Denver, CO 80205)</option>
+							  <option value="daisy mae's nail art">Daisy Mae's Nail Art (4267 W Florida Ave, Denver, CO 80219)</option>
+							  <option value="daisy mae's nail stop ">Daisy Mae's Nail Stop (4830 S Broadway, Englewood, CO 8011)</option>
+							   <option value="daisy mae's nail stop ">Daisy Mae's Nail & Spa (18575 Stage Run, Parker, CO 80134) </option>
+							</select>
+					  </div>
+					</div>
+					   	</fieldset>
+						
+						<fieldset>
+						<div class="formRow">
+						 <div class="colLeft">
+						<label for= "appt">Date</label>
+						 </div>
+						 <div class="colRight">
+						<input type="date" id="appt" name="apptDate"/>
+						</div>
+						</div>
+						</fieldset>
+
+						<fieldset>
+						<div class="formRow">
+						  <div class="colLeft">
+							<label for="services">Services</label>
+						  </div>
+						  <div class="colRight">
+							<select id="services" name="services">
+							  <option value="manicure">Manicure</option>
+							  <option value="pedicure">Pedicure</option>
+							  <option value="manicure and pedicure">Manicure & Pedicure</option>
+							</select>
+						  </div>
+						</div>
+						</fieldset>
+						
+						<fieldset>
+						<div class="formRow">
+						  <div class="colLeft">
+							<label for="additionalservices">Additional Services</label>
+						  </div>
+						  <div class="colRight">
+							<select id="additionalservices" name="additional services">
+							  <option value="french design">French Design</option>
+							  <option value="nail art">Nail Art</option>
+							</select>
+						  </div>
+						</div>
+						</fieldset>
+						
+				
+					<div class="formRow">
+					  <input type="submit" value="Submit">
+					  <input type="reset" value="Reset">
+					</div>
+				  </form>
+				</div>
+				
+
+				</div>
+			</div>
+		   </div>
+		
+  
+  
+  
+  
+   <footer>
+        <span>  
+		Contact Us
+		&#8226;
+                 <a href="tel:+4082186985">(408)-218-6985</a> 
+		&#8226; 
+                 <a href="mailto:daisymaesnailcare@gmail.com">daisymaesnailcare@gmail.com</a>
+        </span>  
+		<a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+						<a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
+                        <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
+   </footer>
+  </body>
+</html>

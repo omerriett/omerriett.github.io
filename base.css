@@ -1,0 +1,454 @@
+@charset "utf-8";
+
+/*
+   Base Page of Daisy Mae's Nail Care
+   Author: Olivia Merriett
+   Date:   11/22/2021
+	
+   Filename: base.css
+*/
+
+
+/* HTML and Body styles */
+
+html {
+   background-image: url("img/bg.jpg");
+   background-position: center;
+   background-size: cover;
+   font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+   background-color: white;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   height: 100%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   margin-left: 12.5%;
+   margin-right: 12.5%;
+   max-width: 1020px;
+   min-width: 480px;
+   width: 100%;
+}
+
+
+/* Header styles */
+
+header img#logoimg {
+   height: 175px;
+   width: 100%;
+   max-width: 1020px;
+}
+
+header {
+  border-top: 2px solid black;
+}
+
+
+
+/* Navigation list styles */
+
+header nav ul {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+    line-height: 110%;
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+header nav ul li {
+  display: inline;
+   margin-right: 2%;
+   margin-left: 2%;
+   padding: 5% 5% 5% 5%;
+   font-size: 100%;
+   width: 100%;
+}
+
+header nav ul li a {
+   color: black;
+   text-decoration: none;
+   
+}
+
+header nav ul li a:hover {
+   color: rgb(151, 151, 151);
+}
+
+
+/* Header styles */  
+
+h4 {
+	font-size: 1.1em;
+	margin-right: 5%;
+	text-align: center;
+	
+}
+
+
+ /* Column styles */  
+ 
+ 
+div .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+div .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+div .left-column { 
+	 border-right: 1px solid black;
+	 margin-top: 0;
+	 overflow: auto;
+     height: 375px;
+}
+
+div .left-column h1 {
+	font-size: 110%;
+	margin-left: 5%;
+	text-align: left;
+}
+
+div .left-column h2 {
+	font-size: 100%;
+	margin-right: .3%;
+	text-align: right;
+	
+}
+
+div .right-column h3 {
+	font-size: 110%;
+	margin-right: 10%;
+	text-align: center;
+	
+	
+}
+div .left-column > .aboutUs > p {
+	font-size: 100%;
+	margin-left: 7%;
+	margin-right: 3%;
+	text-align: justify;
+	text-align: left;
+}
+
+div .left-column p {
+	font-size: 100%;
+	margin-right: 5px;
+	text-align: right;
+}
+
+div .right-column {
+  border-left: 1px solid black;
+   margin-top: 0;
+	overflow: auto;
+  height: 375px;
+  
+}
+
+div .pictures1 {
+	 padding-left: 2%;
+     float: right;
+}
+
+
+/* Image styles */ 
+
+div img#salonimg {
+	height: 340px;
+	width: 480px;
+	padding-top: 2%;
+	padding-bottom: 3.5%;
+	padding-left: 2.5%;
+	padding-right: 2%;
+}
+
+
+div img#locationimg {
+	height: 350px;
+	width: 450px;
+	padding-top: .5%;
+	padding-bottom: .5%;
+	padding-left: 3.5%;
+	padding-right: 0%;
+}
+
+div .nail1img {
+    height: 172px;
+	width: 240px;
+		position: relative;
+}
+
+div .nail2img {
+    height: 173px;
+	width: 240px;
+	position: relative;
+	
+}
+
+div .nail3img {
+    height: 173px;
+	width: 240px;
+    position: relative;
+	
+}
+
+div .nail4img {
+	height: 172px;
+	width: 240px;
+	position: relative;
+	
+	
+}
+
+
+div .video {
+	padding-top: 0%;
+	padding-bottom: 3.5%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+
+/* Table styles */ 
+
+table {
+  height: 100%;
+  width: 90%;
+  margin-left: 40px;
+  margin-right: 20px;
+  border: 0 none;
+}
+
+th {
+	font-size: 100%;
+	text-align: center;	
+}
+
+
+
+/* Form styles */ 
+
+fieldset {
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border: 0 none;
+}  
+
+
+input[type=text], input[type=tel], input[type=date], select, textarea{
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid black;
+  resize: none;
+}
+
+
+label {
+  padding: 2px;
+  display: inline-block;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: black;
+  color: white;
+  border: 2px solid;
+  cursor: pointer;
+  float: right;
+  padding: 1.5%;
+  margin-right: 2%;
+  
+}
+
+.formRow {
+  border-radius: 6px;
+  padding: 1%;
+}
+
+.colLeft{
+  float: left;
+  width: 35%;
+  margin-top: 6px;
+}
+
+.colRight{
+  float: right;
+  width: 65%;
+  margin-top: 6px;
+}
+
+
+
+
+
+/* Footer styles */   
+
+footer {
+   background-color: black;
+   line-height: 100%;
+   width: 100%;
+   max-width: 1010px;
+   text-align: center;
+}
+
+footer, footer span a {
+   color: white;
+   padding: 5px;
+}
+
+footer span a:hover {
+   color: rgb(151, 151, 151);
+}
+
+.fa {
+	padding: 2px; 
+	font-size: 15px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	} 
+	
+.fa:hover {
+	opacity: 0.7; 
+	} 
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+	}
+
+
+
+
+
+/* ===============================
+   Mobile Styles: 0px to 480px
+   ===============================
+*/
+@media only screen and (max-width: 480px) {
+
+
+
+header nav ul li {
+  display: inline;
+   margin-right: 2%;
+   margin-left: 2%;
+   padding: 2% 2% 2% 2%;
+   font-size: 100%;
+   width: 100%;
+}
+
+header nav ul li a {
+   color: black;
+   text-decoration: none;
+   
+}
+
+	
+body {
+   background-color: white;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   height: 100%;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   margin-left: 0%;
+   margin-right: 0%;
+   width: 100%;
+}
+
+table {
+  height: 100%;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 20px;
+  border: 0 none;
+}
+
+div .pictures1 {
+	 padding-left: 0;
+     float: right;
+}
+
+div .nail1img {
+    height: 50%;
+	width: 50%;
+		position: relative;
+}
+
+div .nail2img {
+       height: 50%;
+	width: 50%;
+		position: relative;
+	float: right;
+		top: 0;
+}
+
+div .nail3img {
+      height: 50%;
+	width: 50%;
+		position: relative;
+		
+	
+}
+
+div .nail4img {
+	   height: 50%;
+	width: 50%;
+		position: relative;
+	float: right;
+		top: 0;
+	
+}
+
+
+
+div .video {
+	padding-top: 0%;
+	padding-bottom: 3.5%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+div img#salonimg {
+	height: 340px;
+	width: 480px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+
+div img#locationimg {
+	height: 350px;
+	width: 480px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+}
+
+
+
